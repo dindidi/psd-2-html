@@ -1,12 +1,58 @@
 * {
-    margin: 0;
-    padding: 0;
+   margin: 10px;
+   padding: 5px;
+   
 }
 
+
+
+
 header {
-    padding: 22px 28px 32px;
+    max-width: 100%;
+    
+    background-color: red;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
+
+    
+ }   
+
+ h1 { font-family: Arial, Helvetica, sans-serif; 
+      color: #fff;
+      padding: 1rem;
+      
+
+ }    
+ 
+ p {
+    font-size: 1rem;
+ }
+
+
+
+
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:red;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 1px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .container {
@@ -46,3 +92,4 @@ header {
 .btn-saiba-mais:hover {
     color: #333333;
 }
+
